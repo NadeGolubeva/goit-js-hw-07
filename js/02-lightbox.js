@@ -26,9 +26,3 @@ const lightbox = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
 });
 lightbox.on("show.simplelightbox");
-
-// , imgSelected);
-
-// function imgSelected(e) {
-//   console.log(e.target);
-// }

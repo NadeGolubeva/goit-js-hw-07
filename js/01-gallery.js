@@ -36,8 +36,3 @@ function onImgClick(event) {
 `);
   instance.show();
 }
-//   const tag = event.target;
-//   const urlBig = event.target.dataset.source;
-//   imgMarkup.src = urlBig;
-//   console.log(urlBig);
-// }
