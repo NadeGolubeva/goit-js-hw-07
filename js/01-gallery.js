@@ -35,9 +35,9 @@ function onImgClick(event) {
 	<p><img src = ${event.target.dataset.source} ></img></p>
 `);
   instance.show();
-
-  const tag = event.target;
-  const urlBig = event.target.dataset.source;
-  imgMarkup.src = urlBig;
-  console.log(urlBig);
 }
+//   const tag = event.target;
+//   const urlBig = event.target.dataset.source;
+//   imgMarkup.src = urlBig;
+//   console.log(urlBig);
+// }

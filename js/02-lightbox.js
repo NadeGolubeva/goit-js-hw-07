@@ -21,11 +21,11 @@ function imgMarkup(galleryItems) {
 
 console.log(galleryItems);
 
-let lightbox = new SimpleLightbox(".gallery a", {
+const lightbox = new SimpleLightbox(".gallery a", {
   captionDelay: 250,
 
   captionsData: "alt",
-  captionPosition: "left",
+  //   captionPosition: "center",
 });
 lightbox.on("show.simplelightbox");
 
