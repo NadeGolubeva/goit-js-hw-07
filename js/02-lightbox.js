@@ -24,7 +24,6 @@ const lightbox = new SimpleLightbox(".gallery a", {
   captionDelay: 250,
 
   captionsData: "alt",
-  //   captionPosition: "center",
 });
 lightbox.on("show.simplelightbox");
 
