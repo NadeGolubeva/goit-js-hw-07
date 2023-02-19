@@ -22,7 +22,7 @@ function imgMarkup(galleryItems) {
 console.log(galleryItems);
 
 let lightbox = new SimpleLightbox(".gallery a", {
-  captionDelay: 205,
+  captionDelay: 250,
 
   captionsData: "alt",
   captionPosition: "left",
