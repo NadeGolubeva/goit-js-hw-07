@@ -25,4 +25,3 @@ const lightbox = new SimpleLightbox(".gallery a", {
 
   captionsData: "alt",
 });
-lightbox.on("show.simplelightbox");
